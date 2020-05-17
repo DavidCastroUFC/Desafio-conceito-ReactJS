@@ -1,0 +1,52 @@
+h1,p,div{
+    font-family: 'roboto';
+}
+.containerAdd{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+.formAdd{
+    margin-top: 30px;
+}
+.formAdd p{
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.formAdd input{
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 340px;
+    height: 30px;
+    background-color:none;
+    border: none;
+    border-bottom: 1px solid #BF1010 ;
+    color:#BF1010;
+}
+.formAdd input::-webkit-input-placeholder{
+    color:#808080;
+    font-size:18px ;
+
+}
+button{
+    margin-top: 5px;
+    font-size: 20px;
+    width: 340px;
+    height: 40px;
+    background-color: #BF1010;
+    border-radius: 8px;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+

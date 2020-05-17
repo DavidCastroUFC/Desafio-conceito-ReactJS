@@ -1,0 +1,43 @@
+.containerShow{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: auto;
+    align-items: center;
+}
+.containerList{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #808080 ;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.containerList li{
+align-items: center;
+}
+
+.title{
+    color: #BF1010;
+    font-size: 17px;
+    font-weight: 500;
+    width: 250px;
+}
+.githubIcon{
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+.removeIcon{
+    height: 30px;
+    width: auto;
+    margin: 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
